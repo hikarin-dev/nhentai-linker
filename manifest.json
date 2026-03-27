@@ -1,8 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Six Digit Highlighter",
+  "name": "Nhentai Linker",
   "version": "1.0",
-  "description": "Highlights 6-digit codes",
+  "description": "Adds a link that leads to the website nhentai.net beside 6 digit numbers found in Reddit or X",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": [
