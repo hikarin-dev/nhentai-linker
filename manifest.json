@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Six Digit Highlighter",
+  "version": "1.0",
+  "description": "Highlights 6-digit codes",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.reddit.com/*",
+        "*://*.x.com/*",
+        "*://*.facebook.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["favicon.ico"],
+      "matches": [
+        "*://*.reddit.com/*",
+        "*://*.x.com/*",
+        "*://*.facebook.com/*"
+      ]
+    }
+  ]
+}
