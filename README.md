@@ -2,7 +2,7 @@
 
 Adds a link that leads to the website nhentai.net beside 6 digit numbers found in Reddit or X
 
-# 🧩 Installation
+# Installation
 
 > ⚠️ **Run at your own risk.** This is my first Chrome extension — it's not on the Chrome Web Store and hasn't been reviewed by Google, so install at your own discretion!
 
